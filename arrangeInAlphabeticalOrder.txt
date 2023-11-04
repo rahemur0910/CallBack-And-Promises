@@ -1,0 +1,8 @@
+ALGO:
+The logBookTitles function accepts an array of book objects and a callback function as parameters.
+
+Inside the function, it uses the map method to extract only the titles of the books and store them in the bookTitles array.
+
+It sorts the bookTitles array in alphabetical order using the sort method.
+
+Finally, it calls the provided callback function and passes the sorted list of titles to it for logging.

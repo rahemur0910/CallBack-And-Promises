@@ -1,0 +1,13 @@
+Algo: 
+
+We define the apiUrl variable to store the URL of the API we want to fetch data from. In this case, we intentionally set it to an invalid URL to simulate a 404 error.
+
+We select an HTML element with the id "error-message" to display the error message on the webpage. You should have an HTML element with this id in your HTML file.
+
+We use the fetch function to make a GET request to the specified API URL.
+
+In the first .then block, we check the response status to ensure it's a successful response (status code 200). If the response is OK, we parse the JSON data using response.json().
+
+In the second .then block, we log the retrieved data to the console. In this example, we log it to the console, but you can display it on the webpage as required.
+
+If there is an error at any point during the fetch process, it will be caught in the .catch block. We log the error to the console and display an error message on the webpage using the errorDisplay element.

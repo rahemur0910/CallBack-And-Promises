@@ -1,0 +1,12 @@
+Algo:
+The fetchDataFromTwoAPIs function defines the URLs for both API endpoints.
+
+Inside the try block, Promise.all is used to fetch data from both APIs concurrently. This is more efficient than making sequential requests.
+
+We check if the response of each API is OK. If any of the responses is not OK, we throw an error.
+
+We use await to parse the JSON data from both responses.
+
+The combined data is created as an object with keys "todo" and "post," and the corresponding values are the results from the respective APIs.
+
+Finally, the combined data is logged to the console.

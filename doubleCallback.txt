@@ -1,0 +1,17 @@
+if(!Array.isArray(arr)||typeof callback !== 'function')
+    {
+        throw new Error('Invalid Input');
+    }
+explaine:
+
+!Array.isArray(arr): This part checks if the variable arr is not an array. 
+The Array.isArray(arr) function returns true if arr is an array and false if it's not. 
+The ! operator negates this result, so !Array.isArray(arr) will be true if arr is not an 
+array.
+
+typeof callback !== 'function': This part checks if the callback variable is not a 
+function.The typeof operator is used to determine the data type of a variable. In this 
+case, it checks if the data type of callback is not equal to the string 'function'. 
+If callback is not a function, this expression will evaluate to true.
+
+-------------------------------------------------------------------------------------------

@@ -1,0 +1,15 @@
+We define the apiUrl variable to store the URL of the API we want to fetch data from (in this case, the JSONPlaceholder API's posts endpoint).
+
+We use the fetch function to make a GET request to the specified API URL.
+
+In the first .then block, we check the response status to ensure it's a successful response (status code 200). If the response is OK, we parse the JSON data using response.json().
+
+In the second .then block, we log the retrieved data to the console.
+
+If there is an error at any point during the fetch process, it will be caught in the .catch block, and the error message will be logged to the console.
+
+
+
+
+
+

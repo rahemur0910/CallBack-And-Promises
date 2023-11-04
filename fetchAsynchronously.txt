@@ -1,0 +1,10 @@
+Alog:
+The fetchDataFromAPI function defines the API URL as apiUrl.
+
+The fetch function is used to make an HTTP request to the specified URL. It returns a Promise that resolves with the response.
+
+We use .then() to process the response. First, we check if the response status is okay. If it's not, we throw an error. If the status is okay, we parse the response as JSON using response.json().
+
+Once the JSON data is received, it's logged to the console.
+
+If there is an error at any stage of the process, it is caught using .catch() and logged to the console.
